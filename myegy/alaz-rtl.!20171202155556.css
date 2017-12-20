@@ -1,0 +1,8 @@
+.Items .item:hover {
+	/* Stupid hover */	
+    transform: scale(0.9) !important;
+    box-shadow: 0 !important;
+}
+.Items .item {
+    transition: transform .0s, box-shadow .0s !important;
+}

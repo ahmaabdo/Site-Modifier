@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Site Modifier",
+  "version": "0.1.0",
+  "description": "Modify stupid websites styles - HTML & CSS",
+   "icons": {
+      "128": "icon.png"
+   },
+  /*
+   * @matches = website name + * to select all pages
+   */
+  "content_scripts": [{
+    "css": ["myegy/alaz-rtl.!20171202155556.css"],
+    "matches": ["https://myegy.tv/*"]
+  }]
+
+}
